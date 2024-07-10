@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.ocrOuterDiv {
+    display: flex;
+    height: 100vh;
+    background-color: #c5dcff;
+    justify-content: center;
+    align-items: center;
+}
+
+.ocrTextContainer {
+    background: linear-gradient(135deg, #2196f3 0%, #21cbf3 100%);
+    color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-right: 20px;
+}
+
+.ocrTxtDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ocrTxtDiv h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.ocrFormContainer {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.ocrFormInnerDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ocrFormInnerDiv h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.ocrFieldDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ocrFieldDiv label {
+    font-weight: bold;
+    color: #555;
+}
+
+.ocrFieldDiv input {
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.ocrFieldDiv input:focus {
+    border-color: #2196f3;
+}
+
+.lgnBtnDiv {
+    text-align: center;
+}
+
+.lgnBtnDiv button {
+    border: none;
+    color: #fff;
+    background: #2196f3;
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.lgnBtnDiv button:hover {
+    background: #1976d2;
+}
